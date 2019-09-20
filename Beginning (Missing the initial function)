@@ -1,0 +1,20 @@
+stock.price <- 
+
+
+
+
+
+
+colnames(stock.price) <- c("Close/Last", "Volume", "Open", "High", "Low")
+
+result <- vector("numeric", length=nrow(stock.price))
+for(col in 1:ncol(stock.price)) {
+	sum <-0 
+	for(column in 1:ncol(stock.price)) {
+   sum <- difference / stock.price[High,Low]
+}
+result [row] <- sum
+}
+result
+
+
